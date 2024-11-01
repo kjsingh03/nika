@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-weight: 400;
+  src: url(./assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr\ Medium/);
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-weight: 700;
+  src: url(./assets/fonts/HelveticaNeueCyr/HelveticaNeueCyr\ Bold/);
+}
+
+.bg-hero {
+  background-size: cover;
+
+}
+
+.stay-sec {
+  background-image: url('./assets/bgg1.png');
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.err-404 {
+  background-image: url('./assets/404.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.about-hero {
+  background-image: url('./assets/about-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.waitlist-hero {
+  background-image: url('./assets/waitlist-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.webapp-hero {
+  background-image: url('./assets/webapp-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article-tech {
+  background-image: url('./assets/article-tech3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.btn {
+  cursor: pointer;
+  transition: all 40ms;
+}
+
+.btn1 {
+  background-color: #5a40fe;
+  color: white;
+}
+
+.btn2 {
+  background-color: white;
+  color: #5a40fe;
+  border: 1px solid #5a40fe;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: #5a40fe;
+  border: 1px solid #5a40fe;
+}
+
+.btn2:hover {
+  background-color: #5a40fe;
+  color: white;
+}
+
+.btn3 {
+  background-color: #070707;
+  color: white;
+
+}
+
+.btn3:hover {
+  background-color: white;
+  color: #070707;
+  border: 1px solid #070707;
+}
+
+.btn4 {
+  background-color: #5a40fe;
+  color: white;
+}
+
+.btn4:hover {
+  background-color: white;
+  color: #5a40fe;
+  border: 1px solid #5a40fe;
+}
+
+.btn5 {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn5:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cgrad {
+  background: url('./assets/congrats-grad.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.mob-nav {
+  position: fixed;
+  z-index: 1000;
+  background: #00000041;
+  left: 0;
+}
+
+.mob-nav-ani {
+  left: 0;
+  position: absolute;
+  animation: mob-nav 550ms forwards;
+  z-index: 1200;
+}
+
+@keyframes mob-nav {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@media(width<1024px) {
+  .stay-sec {
+    background-image: url('./assets/bgg2.png');
+  }
+}
+
+@media(width<780px) {
+  .about-hero {
+    background-image: url('./assets/about-hero2.png');
+  }
+
+  .waitlist-hero {
+    background-image: url('./assets/waitlist-hero2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .webapp-hero {
+    background-image: url('./assets/webapp-hero2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .article-tech {
+    background-image: url('./assets/article-tech.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+
+
+}
